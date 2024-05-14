@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epicode Test</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <figure id="contLogo">
+            <img src="assets/img/epicode_logo.png" alt="epicode_logo" id="logo">
+        </figure>
+    </header>
+    <div id="content">  
+        <h1 id="titolo">Welcome to <span> your exam </span></h1>
+    <div id="box1">
+        <h3 id="istruzioni"> Instructions</h3>
+        <p class="testo">We don't expect most engineers to know the answers to all of these questions, so don't worry if tyou're unsure of a few of them.</p>
+    </div>
+    <div>
+        <ul>
+            <li>Each question is <span>timed</span> and can onlu be <span>answered once</span>.</li>
+            <li>Changing browser tab or opening other windows will <span>invalidate the question</span>.</li>
+            <li>This exam will take approx. <span>0-5 minutes</span>.</li>
+        </ul>
+    </div>
+    </div>
+    <form class="welcomeForm">
+        <input type="checkbox" id="promessa" onchange="abilita(this)">
+        <label for="promessa">I promise to answer myself without help from anyone</label>
+        <a href="questions.html"> <input type="button" value="PROCEED" id="bottone" disabled="disabled"> </a>
+    </form>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>

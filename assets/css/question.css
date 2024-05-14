@@ -1,0 +1,48 @@
+#base-timer-label{
+    display: block;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+    padding-top: 2.5em;
+}
+#seconds{
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#secondsInizio{
+    display: block;
+    padding-top: 0.25em;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#conteggio{
+    display: block;
+    text-align: center;
+    padding-top: 6em;
+}
+
+#questViola{
+    color: #D20094;
+}
+
+@media only screen and (max-width: 750px) {
+     /* aggiungo della roba per il timer */
+  #app {
+    position: absolute;
+    top: 21%;
+    left: -29%;
+    transform: translate(-50%, -50%);
+  }
+  #container {
+    margin-top: 22vh;
+  }
+  #domanda h1 {
+    font-size: 2em;
+  }
+  .titoliDomande {
+    font-size: 2.5em;
+  }
+  /* fine roba timer  */
+}

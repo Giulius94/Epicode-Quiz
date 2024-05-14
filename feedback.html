@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rate us</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/feedback-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <figure id="contLogo">
+        <img src="assets/img/epicode_logo.png" alt="epicode_logo" id="logo">
+    </figure>
+    </header>
+
+    <div class="container">
+      <div class="content">
+        <h1 class="feedbackTitle">Tell us how it's going</h1>
+        <p class="feedbackParagraph">
+          From 0 to 10, how likely are you to recommend EPICODE to a friend or a
+          colleague?
+        </p>
+
+        <div class="rating">
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+        </div>
+
+        <div class="feedbackContent">
+          <p class="feedbackParagraph">
+            Leave us an open feedback about your experience so far
+          </p>
+        </div>
+        <div>
+           <form id="feedbackForm">
+            <input type="text" id="feedbackInput"  placeholder="Write your comment here"/>
+            <input type="button" id="bottone_invio" value="Invia">
+           </form>
+        </div>
+       
+        <a href="https://epicode.com/it/"><input type="button" id="feedbackBtn" value="MORE INFO"/></a>
+      </div>
+      <div id="comment-container"></div>
+    </div>
+    <script src="assets/script/feedback.js"></script>
+  </body>
+</html>
